@@ -1,0 +1,20 @@
+[16,21,11,8,12,22] -> Sıralamayı Birleştir
+1. satın alma sıralamasına göre aşamalarını ifade eder.
+dizimizi dağıtıyoruz. Bölünen dizileri tekrar bölüyoruz. Tek elemanlarımız devam ediyoruz.
+Diziyi bölerek yeniden yazıyoruz							
+Sol ve sağdaki dizileri tekrar dağıtıyoruz.					
+Tek elemanlar kalana kadar bir kez daha bölüyoruz.	
+Bölme işlemi bitikten sonra, tek elemanlı dizilerimizi ikili ikili birleştiriyoruz. Sıralı dizi elde edinceye kadar bu işi devam ettiriyoruz.
+ikili ikiliyi sıralayarak birleştiriyoruz.		
+Tekrar ikili ikili sıralayarak birleştiriyoruz.			
+Son birleştirmede dizimizi elde ediyoruz.
+  16	21	11	8	12	22	
+  16	21	11			8	12	22		
+16	21		11			8		12	22
+16		21		11			8		12		22
+16	21		11			8		12	22	
+11	16	21			8	12	22
+	8	11	12	16	21	
+2. Büyük-O gösterimini yazınız.
+ O(n*(logn)) --> O(6*(log6)
+  
