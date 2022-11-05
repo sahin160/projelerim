@@ -16,10 +16,15 @@ step n-1 -> 1
 
 toplam = (n*(n-1))/2 -> O(n^2) /// insertion sort 1 den n'e kadar olan sayıların toplamını verir ///
 
-Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
-3) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-Avarage Case
-
+Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olm    ası.
+En kötü durumda:
+[27,22,18,16,6,2]
+Ortalama Vaka:
+[6,16,22,2,18,27]
+En iyi senaryo:
+[2,6,16,18,22,27]
+4) Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+avarage case
 4) [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 
 - min=2 -> swap 7 and 2 -> [2, / 3, 5, 8, 7, 9, 4, 15, 6]
